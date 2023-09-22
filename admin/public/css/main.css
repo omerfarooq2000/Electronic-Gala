@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+:root{
+    --color-1: #218B82;
+    --color-2: #d18e3b;
+    --color-3: #6b8d35 ;
+    --color-4: #4edbdd;
+    --color-5: #c56184 ;
+    --color-6: #dd9060;
+    --color-7: #175f41;
+    --color-8: #f15b56;
+    --color-9: #f2a848;
+    --color-10: #A15D98;
+    --color-11: #ce9210;
+    --color-12: #8C7386;
+    --color-13: #12b76a;
+    --color-14: #00c9a7;
+    --color-15: #42be11;
+    --color-16: #db4358;
+    --color-17: #9255e6;
+    --color-18: #12b76a;
+    --color-19: rgba(255, 0, 0, 0.3);
+    --color-20: rgba(233, 12, 233, 0.596);
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent !important;
+    border-bottom:2px solid #00ae75 !important;
+    color:#00ae75 !important;
+}
+.nav button:active{
+    border-color: transparent !important;
+}
+#dashboard-menu {
+    position: fixed;
+    height: 100vh;
+    z-index: 11;
+    overflow: scroll;
+    
+}
+
+#dashboard-menu::-webkit-scrollbar {
+    width: 0px;
+}
+
+.sticky-top {
+    z-index: 1;
+}
+
+.dropdownButton{
+    z-index: 15 !important;
+}
+
+@media screen and (max-width: 991px) {
+    #dashboard-menu {
+        width: 100%;
+        height: auto;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}
+
+.variation_box {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: var(--i);
+    outline: 1px solid black;
+    outline-offset: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.out_of_stock {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: var(--i);
+    cursor: not-allowed;
+    outline: 1px solid var(--i);
+    outline-offset: 2px;
+    background-image: url('../../../img/out-of-stock.png');
+    background-size: 70% 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.product_desc{
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.page-not-found h1{
+    font-size: 150px;
+}
+
+/* Track */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 25px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+
+/* Track on hover */
+
+::-webkit-scrollbar-track:hover {
+    background-color: #ddd;
+}
+
+.img-box{
+    position: relative;
+    width: 100%;
+    height: 183px;
+    border: 1px solid rgba(0,0,0,.2);
+    background: rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.custom-tabs .nav-link{
+    border-radius: 0px !important;
+    color: #000 !important;
+}
+
+.custom-tabs .nav-link.active{
+    border-radius: 0px !important;
+}
+
+.order-details-variation-box{
+    height: 15px;
+    width: 15px;
+    background: var(--i);
+    outline: var(--i) 1px solid;
+    outline-offset: 2px;
+}
+
+.tracking-box small {
+    font-size: 12px ;
+}
+
+.tracking-status .tracking-box{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tracking-status .tracking-box .line{
+    position: absolute;
+    height: 50px;
+    width: 2px;
+    bottom: 25px;
+    left: 17px;
+    z-index: 1;
+}
+
+.tracking-status .tracking-box:first-child .line{
+    display: none;
+}
+
+.tracking-status .tracking-box .circle{
+    height: 35px;
+    width: 35px;
+    z-index: 5;
+}
+
+.tracking-status .tracking-box .circle .inner-circle{
+    height: 5px;
+    width: 5px;
+    background: #fff;
+}
+img.carousal-preview-image{
+    width: 150px;
+}
+
+#adminNavBar .nav-pills .nav-link.active{
+    background-color: #21362f8c !important;
+    color: #00ffaa !important;
+}
+
+.setting-btn{
+    background-color: rgba(2, 247, 166, 0.1) !important;
+    color: #fff !important;
+}
+
+.bg-main{
+    background-color: #191C25 !important;
+}
+
+.bg-main-1{
+    background-color: #00ae75 !important;
+    color: #fff !important;
+}
+
+.bg-1{
+    background-color: var(--color-1) !important;
+}
+.bg-2{
+    background-color: var(--color-2) !important;
+}
+.bg-3{
+    background-color: var(--color-3) !important;
+}
+.bg-4{
+    background-color: var(--color-4) !important;
+}
+.bg-5{
+    background-color: var(--color-5) !important;
+}
+.bg-6{
+    background-color: var(--color-6) !important;
+}
+.bg-7{
+    background-color: var(--color-7) !important;
+}
+.bg-8{
+    background-color: var(--color-8) !important;
+}
+.bg-9{
+    background-color: var(--color-9) !important;
+}
+.bg-10{
+    background-color: var(--color-10) !important;
+}
+.bg-11{
+    background-color: var(--color-11) !important;
+}
+.bg-12{
+    background-color: var(--color-12) !important;
+}
+.bg-13{
+    background-color: var(--color-13) ;
+}
+.bg-14{
+    background-color: var(--color-14) !important;
+}
+.bg-15{
+    background-color: var(--color-15) !important;
+}
+.bg-16{
+    background-color: var(--color-16) !important;
+}
+.bg-17{
+    background-color: var(--color-17) !important;
+}
+
+.out-of-stock-alert{
+    background-color: var(--color-19) !important;
+}
+
+.text-color-8{
+    color: var(--color-8) !important;
+}
+.text-color-15{
+    color: var(--color-15) !important;
+}
+
+.status{
+    display: inline;
+    padding: .5rem 1.5rem;
+    font-size: 12px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-bottom: 5px;
+}
+.status.pending{
+    background: #ebc474;
+    /* color: #abb800; */
+}
+.status.processing{
+    background: #33e9706e;
+    color: #059150;
+}
+.status.transit{
+    background: #5500ff2f;
+    color: #9c64e8;
+}
+.status.shipped{
+    background: #6fcaea;
+    color: #006b21;
+}
+.status.out-for-delivery{
+    background: rgba(255, 166, 0, 0.315);
+    color: orange;
+}
+.status.delivered{
+    background: #86e49d;
+    color: #006b21;
+}
+.status.canceled{
+    background: #f5b8b3;
+    color: #ef3528;
+}
+.status.active{
+    background: var(--color-13);
+    color: #fadddd;
+}
+.status.approved{
+    background: var(--color-3);
+    color: #fadddd;
+}
+.status.disapproved{
+    background: var(--color-16);
+    color: #fadddd;
+}
+.status.failed{
+    background: var(--color-20);
+    color: #fff;
+}

@@ -1,0 +1,10 @@
+
+
+Status	     Description
+Pending	The  order has been placed but payment has not yet been received.
+Processing	 The order has been received and is being processed.
+Shipped	The  order has been shipped and is on its way to the customer.
+Delivered	 The order has been delivered to the customer.
+Cancelled	 The order has been cancelled by the customer or the merchant.
+Failed	     The order has failed for some reason.
+		

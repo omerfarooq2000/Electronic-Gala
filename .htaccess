@@ -1,0 +1,2 @@
+#ErrorDocument 404 "Page not found"
+ErrorDocument 404 /electronic-gala/404.php
